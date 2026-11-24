@@ -1,0 +1,3 @@
+mercato,varianti,spearman_min,ampiezza_media,sempre_prime5,sempre_ultime5,sentiment_principale,versioni_sentiment
+estero,36,0.74,5.4,"Emilia-Romagna, Puglia, Trentino-AA, Umbria","Sardegna, Molise",stima con shrinkage,3
+domestico,12,0.83,3.8,"Sicilia, Friuli-VG, Campania","Valle d'Aosta, Basilicata, Trentino-AA",stima con shrinkage,1

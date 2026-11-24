@@ -1,0 +1,4 @@
+metodo,corretti,n,accuratezza,ic_lo,ic_hi,F1_macro,kappa,acc_testi_lunghi
+Qwen 2.5 7B,34,43,0.7907,0.6479,0.8858,0.7269,0.6339,0.7619
+RoBERTa (transformer),34,43,0.7907,0.6479,0.8858,0.6741,0.6217,0.7143
+VADER (dizionario),23,43,0.5349,0.3892,0.6749,0.3518,0.1451,0.3333

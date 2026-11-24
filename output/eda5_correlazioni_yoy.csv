@@ -1,0 +1,34 @@
+periodo,mercato,fonte,r,n
+2012-2019 (normale),domestico,Trends: hotel,0.23113301661708438,1920
+2012-2019 (normale),domestico,Trends: voli,0.10228263688720612,1824
+2012-2019 (normale),domestico,Trends: destinazioni,0.2326267942191624,1920
+2012-2019 (normale),domestico,Wikipedia,0.18929936936972896,840
+2012-2019 (normale),estero,Trends: hotel,0.03564050345996708,1440
+2012-2019 (normale),estero,Trends: voli,0.010628373638879252,1536
+2012-2019 (normale),estero,Trends: destinazioni,0.09461717919245038,1824
+2012-2019 (normale),estero,Wikipedia,0.15410574329066967,840
+2020-2021 (COVID),domestico,Trends: hotel,0.8479521061110203,480
+2020-2021 (COVID),domestico,Trends: voli,0.8049989161417012,456
+2020-2021 (COVID),domestico,Trends: destinazioni,0.8444220972717352,480
+2020-2021 (COVID),domestico,Wikipedia,-0.423276476790979,480
+2020-2021 (COVID),estero,Trends: hotel,0.5344529803830314,360
+2020-2021 (COVID),estero,Trends: voli,0.7324077403005415,384
+2020-2021 (COVID),estero,Trends: destinazioni,0.674442960291001,456
+2020-2021 (COVID),estero,Wikipedia,0.3500452097125626,480
+2022 (ripresa),domestico,Trends: hotel,0.6055836602218551,240
+2022 (ripresa),domestico,Trends: voli,0.6100060068269912,228
+2022 (ripresa),domestico,Trends: destinazioni,0.7804344216165507,240
+2022 (ripresa),domestico,Wikipedia,-0.3100243700584349,240
+2022 (ripresa),estero,Trends: hotel,0.3420044207369444,180
+2022 (ripresa),estero,Trends: voli,0.5207664457758151,192
+2022 (ripresa),estero,Trends: destinazioni,0.4192312479737575,228
+2022 (ripresa),estero,Wikipedia,0.22914320122609233,240
+2023-2024 (normale),domestico,Trends: hotel,0.2344109207728982,480
+2023-2024 (normale),domestico,Trends: voli,0.3034358954480351,456
+2023-2024 (normale),domestico,Trends: destinazioni,0.22343767198444633,480
+2023-2024 (normale),domestico,Wikipedia,0.19881742238838693,480
+2023-2024 (normale),estero,Trends: hotel,0.12567492516359463,360
+2023-2024 (normale),estero,Trends: voli,0.34051074904568795,384
+2023-2024 (normale),estero,Trends: destinazioni,0.18139988923349004,456
+2023-2024 (normale),estero,Wikipedia,0.37771422571399343,480
+2023-2024 (normale),estero,Reddit,0.2983678392601405,452

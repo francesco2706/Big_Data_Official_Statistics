@@ -1,0 +1,5 @@
+gruppo,regioni,n,jaccard,quota_estiva,quota_invernale,quota_stranieri
+Citta' e affari,"Piemonte, Lombardia, Lazio",3,0.842,0.412,0.25,0.558
+Montagna (due stagioni),"Valle d'Aosta, Trentino-AA",2,0.997,0.484,0.344,0.495
+Arte e mare (stagionalita' intermedia),"Liguria, Veneto, Friuli-VG, Emilia-Romagna, Toscana, Umbria, Marche, Abruzzo, Molise, Campania, Basilicata, Sicilia",12,0.774,0.533,0.173,0.376
+Mare (molto stagionale),"Puglia, Calabria, Sardegna",3,0.703,0.679,0.092,0.35

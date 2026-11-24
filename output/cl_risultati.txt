@@ -1,0 +1,85 @@
+
+======================================================================
+2. SCELTA DI k SUI DATI ISTAT: ELBOW METHOD
+======================================================================
+inerzia = somma dei quadrati delle distanze di ogni regione dal centro del suo gruppo (piu' bassa = gruppi piu' compatti)
+    inerzia  varianza_spiegata     calo  distanza_dalla_retta
+k                                                            
+1   480.000              0.000      NaN                 0.000
+2   305.766              0.363  174.234                 0.283
+3   201.138              0.581  104.628                 0.409
+4   140.258              0.708   60.880                 0.436
+5   101.304              0.789   38.954                 0.413
+6    77.351              0.839   23.953                 0.356
+7    65.587              0.863   11.764                 0.271
+8    53.893              0.888   11.694                 0.187
+9    43.498              0.909   10.395                 0.099
+10   38.168              0.920    5.330                 0.000
+
+Gomito: k = 4 (varianza spiegata 71%). Dopo il gomito ogni gruppo in piu'
+riduce poco l'inerzia. L'accordo con i dati digitali si misura con il test di Mantel (sezione 5), che non dipende da k.
+
+======================================================================
+3. STABILITA' DI OGNI GRUPPO (Jaccard medio sui sottocampioni: > 0.75 solido, < 0.5 da non interpretare)
+======================================================================
+
+k = 2:
+  gruppo 0 (Jaccard 0.91, solido): Liguria, Veneto, Friuli-VG, Emilia-Romagna, Toscana, Umbria, Marche, Abruzzo, Molise, Campania, Puglia, Basilicata, Calabria, Sicilia, Sardegna
+  gruppo 1 (Jaccard 0.82, solido): Piemonte, Valle d'Aosta, Lombardia, Trentino-AA, Lazio
+
+k = 4:
+  gruppo 0 (Jaccard 0.84, solido): Piemonte, Lombardia, Lazio
+  gruppo 1 (Jaccard 0.77, solido): Liguria, Veneto, Friuli-VG, Emilia-Romagna, Toscana, Umbria, Marche, Abruzzo, Molise, Campania, Basilicata, Sicilia
+  gruppo 2 (Jaccard 1.00, solido): Valle d'Aosta, Trentino-AA
+  gruppo 3 (Jaccard 0.70, incerto): Puglia, Calabria, Sardegna
+
+Gruppi con k = 4:
+                                gruppo                                                                                                             regioni  n  jaccard  quota_estiva  quota_invernale  quota_stranieri
+                       Citta' e affari                                                                                          Piemonte, Lombardia, Lazio  3     0.84          0.41             0.25             0.56
+               Montagna (due stagioni)                                                                                          Valle d'Aosta, Trentino-AA  2     1.00          0.48             0.34             0.49
+Arte e mare (stagionalita' intermedia) Liguria, Veneto, Friuli-VG, Emilia-Romagna, Toscana, Umbria, Marche, Abruzzo, Molise, Campania, Basilicata, Sicilia 12     0.77          0.53             0.17             0.38
+               Mare (molto stagionale)                                                                                          Puglia, Calabria, Sardegna  3     0.70          0.68             0.09             0.35
+  grafico salvato: output/cl_3_profili_gruppi.png
+
+======================================================================
+4. ACCORDO ISTAT-DIGITALE PER k = 2..5 (ARI, p di permutazione, intervallo per sottocampionamento)
+======================================================================
+fonte  Google Trends  Trends + Wikipedia  Wikipedia
+k                                                  
+2               0.04                0.62       0.38
+3               0.32                0.23       0.40
+4               0.16                0.32       0.19
+5               0.27                0.25       0.10
+
+p-value di permutazione:
+fonte  Google Trends  Trends + Wikipedia  Wikipedia
+k                                                  
+2              0.350               0.003      0.055
+3              0.013               0.007      0.002
+4              0.101               0.016      0.068
+5              0.002               0.008      0.135
+
+intervallo 10-90% dell'ARI togliendo 4 regioni a caso:
+fonte Google Trends Trends + Wikipedia    Wikipedia
+k                                                  
+2      -0.08 - 0.69        -0.07 - 1.0   0.01 - 1.0
+3        0.0 - 0.43        0.11 - 0.78  0.12 - 0.61
+4       0.14 - 0.46        0.19 - 0.67  0.07 - 0.44
+5       0.18 - 0.45         0.15 - 0.6  0.04 - 0.32
+
+======================================================================
+5. TEST DI MANTEL: le distanze tra regioni sono simili nelle due fonti?
+======================================================================
+             fonte            mercato  mantel_r  p_value
+     Google Trends entrambi i mercati     0.480    0.001
+     Google Trends     solo domestico     0.746    0.000
+     Google Trends        solo estero     0.335    0.030
+         Wikipedia entrambi i mercati     0.606    0.000
+         Wikipedia     solo domestico     0.660    0.000
+         Wikipedia        solo estero     0.456    0.002
+Trends + Wikipedia entrambi i mercati     0.577    0.000
+
+Lettura: mantel_r e' la correlazione di Spearman tra le distanze di 190 coppie di regioni. E' la misura
+principale da riportare: risponde alla domanda senza dover scegliere quanti gruppi esistono.
+  grafico salvato: output/cl_1_scelta_k.png
+  grafico salvato: output/cl_2_accordo.png

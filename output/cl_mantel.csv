@@ -1,0 +1,8 @@
+fonte,mercato,mantel_r,p_value
+Google Trends,entrambi i mercati,0.4795,0.0014
+Google Trends,solo domestico,0.7458,0.0002
+Google Trends,solo estero,0.3347,0.0302
+Wikipedia,entrambi i mercati,0.606,0.0002
+Wikipedia,solo domestico,0.6605,0.0002
+Wikipedia,solo estero,0.4564,0.0022
+Trends + Wikipedia,entrambi i mercati,0.5768,0.0002

@@ -1,0 +1,96 @@
+REF_AREA,ordine,titolo_it_input,qid,descrizione,titolo_it,titolo_en,titolo_de,titolo_fr,titolo_es
+ITC1,0,Piemonte,Q1216,regione italiana a statuto ordinario,Piemonte,Piedmont,Piemont,Piémont,Piamonte
+ITC1,1,Torino,Q495,"comune italiano, capoluogo dell'omonima città metropolitana e della regione Piemonte",Torino,Turin,Turin,Turin,Turín
+ITC1,2,Lago Maggiore,Q14379,lago dell'Italia settentrionale e della Svizzera,Lago Maggiore,Lake Maggiore,Lago Maggiore,Lac Majeur,Lago Mayor
+ITC1,3,Langhe,Q19865,regione storica del Piemonte situata a cavallo delle province di Cuneo e di Asti,Langhe,Langhe,Langhe,Langhe,Langhe
+ITC1,4,Sestriere,Q10302,comune italiano,Sestriere,Sestriere,Sestriere,Sestrières,Sestriere
+ITC2,0,Valle d'Aosta,Q1222,regione italiana a statuto speciale,Valle d'Aosta,Aosta Valley,Aostatal,Vallée d'Aoste,Valle de Aosta
+ITC2,1,Courmayeur,Q34993,comune italiano,Courmayeur,Courmayeur,Courmayeur,Courmayeur,Courmayeur
+ITC2,2,Breuil-Cervinia,Q911159,frazione del comune italiano di Valtournenche,Breuil-Cervinia,Breuil-Cervinia,Breuil-Cervinia,Breuil-Cervinia,Breuil-Cervinia
+ITC2,3,Monte Bianco,Q583,"vetta montuosa più alta d'Italia, di Francia, della catena alpina e dell'Unione Europea",Monte Bianco,Mont Blanc,Mont Blanc,Mont Blanc,Mont Blanc
+ITC2,4,Aosta,Q3367,"comune italiano, capoluogo della regione autonoma Valle d'Aosta",Aosta,Aosta,Aosta,Aoste,Aosta
+ITC3,0,Liguria,Q1256,regione italiana a statuto ordinario,Liguria,Liguria,Ligurien,Ligurie,Liguria
+ITC3,1,Cinque Terre,Q275639,tratto di costa della Riviera ligure di levante,Cinque Terre,Cinque Terre,Cinque Terre,Cinque Terre,Cinque Terre
+ITC3,2,Genova,Q1449,"comune italiano, capoluogo dell'omonima città metropolitana e della regione Liguria",Genova,Genoa,Genua,Gênes,Génova
+ITC3,3,Portofino,Q232782,comune italiano,Portofino,Portofino,Portofino,Portofino,Portofino
+ITC3,4,Sanremo,Q33962,comune italiano,Sanremo,Sanremo,Sanremo,Sanremo,San Remo
+ITC4,0,Lombardia,Q1210,regione d'Italia,Lombardia,Lombardy,Lombardei,Lombardie,Lombardía
+ITC4,1,Milano,Q490,"comune italiano, capoluogo dell'omonima città metropolitana e della regione Lombardia",Milano,Milan,Mailand,Milan,Milán
+ITC4,2,Lago di Como,Q15523,lago nelle province di Como e Lecco,Lago di Como,Lake Como,Comer See,Lac de Côme,Lago de Como
+ITC4,3,Sirmione,Q112019,comune italiano,Sirmione,Sirmione,Sirmione,Sirmione,Sirmione
+ITC4,4,Livigno,Q40871,comune italiano,Livigno,Livigno,Livigno,Livigno,Livigno
+ITDA,0,Provincia autonoma di Bolzano,Q15124,"provincia autonoma italiana, nella regione del Trentino-Alto Adige",Provincia autonoma di Bolzano,South Tyrol,Südtirol,Province autonome de Bolzano,Provincia autónoma de Bolzano
+ITDA,1,Provincia autonoma di Trento,Q16289,"provincia autonoma italiana, nella regione del Trentino-Alto Adige",Provincia autonoma di Trento,Trentino,Trentino,Province autonome de Trente,Provincia autónoma de Trento
+ITDA,2,Dolomiti,Q1283,"insieme di gruppi montuosi delle Alpi Orientali, caratterizzati da una prevalente presenza di roccia dolomitica",Dolomiti,Dolomites,Dolomiten,Dolomites,Dolomitas
+ITDA,3,Val Gardena,Q384885,valle nelle Dolomiti,Val Gardena,Val Gardena,Gröden,Val Gardena,Val Gardena
+ITDA,4,Merano,Q131605,comune italiano,Merano,Merano,Meran,Mérano,Merano
+ITD3,0,Veneto,Q1243,regione italiana a statuto ordinario,Veneto,Veneto,Venetien,Vénétie,Véneto
+ITD3,1,Venezia,Q641,"comune italiano, capoluogo dell'omonima città metropolitana e della regione Veneto",Venezia,Venice,Venedig,Venise,Venecia
+ITD3,2,Lago di Garda,Q6414,lago dell'Italia settentrionale,Lago di Garda,Lake Garda,Gardasee,Lac de Garde,Lago de Garda
+ITD3,3,Verona,Q2028,comune italiano del Veneto,Verona,Verona,Verona,Vérone,Verona
+ITD3,4,Jesolo,Q47281,comune italiano,Jesolo,Jesolo,Jesolo,Jesolo,Jesolo
+ITD4,0,Friuli-Venezia Giulia,Q1250,regione italiana a statuto speciale,Friuli-Venezia Giulia,Friuli-Venezia Giulia,Friaul-Julisch Venetien,Frioul-Vénétie Julienne,Friul-Venecia Julia
+ITD4,1,Trieste,Q546,"comune italiano, capoluogo del Friuli-Venezia Giulia",Trieste,Trieste,Triest,Trieste,Trieste
+ITD4,2,Lignano Sabbiadoro,Q53273,comune italiano,Lignano Sabbiadoro,Lignano Sabbiadoro,Lignano Sabbiadoro,Lignano Sabbiadoro,Lignano Sabbiadoro
+ITD4,3,Grado (Italia),Q53130,comune italiano,Grado (Italia),"Grado, Friuli Venezia Giulia",Grado (Friaul-Julisch Venetien),Grado (Italie),Grado (Italia)
+ITD4,4,Udine,Q2790,comune italiano,Udine,Udine,Udine,Udine,Údine
+ITD5,0,Emilia-Romagna,Q1263,regione d'Italia,Emilia-Romagna,Emilia-Romagna,Emilia-Romagna,Émilie-Romagne,Emilia-Romaña
+ITD5,1,Rimini,Q13369,"comune italiano, capoluogo dell'omonima provincia in Emilia-Romagna",Rimini,Rimini,Rimini,Rimini,Rímini
+ITD5,2,Bologna,Q1891,"comune italiano, capoluogo dell'omonima città metropolitana e dell'Emilia-Romagna",Bologna,Bologna,Bologna,Bologne,Bolonia
+ITD5,3,Riccione,Q111888,comune italiano,Riccione,Riccione,Riccione,Riccione,Riccione
+ITD5,4,Ravenna,Q13364,"comune italiano, capoluogo dell'omonima provincia in Emilia-Romagna",Ravenna,Ravenna,Ravenna,Ravenne,Ravena
+ITE1,0,Toscana,Q1273,regione italiana a statuto ordinario,Toscana,Tuscany,Toskana,Toscane,Toscana
+ITE1,1,Firenze,Q2044,"comune italiano, capoluogo dell'omonima città metropolitana e della regione Toscana",Firenze,Florence,Florenz,Florence,Florencia
+ITE1,2,Pisa,Q13375,"comune italiano, capoluogo dell'omonima provincia in Toscana",Pisa,Pisa,Pisa,Pise,Pisa
+ITE1,3,Siena,Q2751,"comune italiano, capoluogo dell'omonima provincia in Toscana",Siena,Siena,Siena,Sienne,Siena
+ITE1,4,Isola d'Elba,Q45328,isola dell'arcipelago toscano,Isola d'Elba,Elba,Elba,Île d'Elbe,Isla de Elba
+ITE2,0,Umbria,Q1280,regione italiana a statuto ordinario,Umbria,Umbria,Umbrien,Ombrie,Umbría (Italia)
+ITE2,1,Perugia,Q3437,"comune italiano, capoluogo dell'omonima provincia e della regione Umbria",Perugia,Perugia,Perugia,Pérouse,Perugia
+ITE2,2,Assisi,Q20103,comune italiano,Assisi,Assisi,Assisi,Assise (Italie),Asís
+ITE2,3,Orvieto,Q541,comune italiano,Orvieto,Orvieto,Orvieto,Orvieto,Orvieto
+ITE2,4,Lago Trasimeno,Q188487,Lago dell'Italia Centrale,Lago Trasimeno,Lake Trasimeno,Trasimenischer See,Lac Trasimène,Lago Trasimeno
+ITE3,0,Marche,Q1279,regione italiana a statuto ordinario,Marche,Marche,Marken,Marches,Marcas
+ITE3,1,Urbino,Q2759,"comune italiano, capoluogo della provincia di Pesaro e Urbino nelle Marche",Urbino,Urbino,Urbino,Urbino,Urbino
+ITE3,2,Ancona,Q3415,"comune italiano, capoluogo dell'omonima provincia e della regione Marche",Ancona,Ancona,Ancona,Ancône,Ancona
+ITE3,3,San Benedetto del Tronto,Q13140,comune italiano,San Benedetto del Tronto,San Benedetto del Tronto,San Benedetto del Tronto,San Benedetto del Tronto,San Benedetto del Tronto
+ITE3,4,Senigallia,Q124925,comune italiano,Senigallia,Senigallia,Senigallia,Senigallia,Senigallia
+ITE4,0,Lazio,Q1282,regione italiana a statuto ordinario,Lazio,Lazio,Latium,Latium,Lacio
+ITE4,1,Roma,Q220,"capitale d'Italia, capoluogo dell'omonima città metropolitana e della regione Lazio",Roma,Rome,Rom,Rome,Roma
+ITE4,2,Città del Vaticano,Q237,stato dell'Europa meridionale,Città del Vaticano,Vatican City,Vatikanstadt,Vatican,Ciudad del Vaticano
+ITE4,3,Colosseo,Q10285,antico anfiteatro romano a Roma,Colosseo,Colosseum,Kolosseum,Colisée,Coliseo
+ITF1,0,Abruzzo,Q1284,regione italiana a statuto ordinario,Abruzzo,Abruzzo,Abruzzen,Abruzzes,Abruzos
+ITF1,1,Pescara,Q2704,"comune italiano, capoluogo dell'omonima provincia in Abruzzo",Pescara,Pescara,Pescara,Pescara,Pescara
+ITF1,2,L'Aquila,Q3476,"comune italiano, capoluogo dell'omonima provincia e della regione Abruzzo",L'Aquila,L'Aquila,L’Aquila,L'Aquila,L'Aquila
+ITF1,3,Gran Sasso d'Italia,Q216869,gruppo montuoso dell'Italia centrale,Gran Sasso,Gran Sasso d'Italia,Gran Sasso d’Italia,Gran Sasso,Gran Sasso d'Italia
+ITF1,4,Roccaraso,Q50138,comune italiano,Roccaraso,Roccaraso,Roccaraso,Roccaraso,Roccaraso
+ITF2,0,Molise,Q1443,regione italiana a statuto ordinario,Molise,Molise,Molise,Molise,Molise
+ITF2,1,Campobasso,Q3497,"comune italiano, capoluogo dell'omonima provincia e della regione Molise",Campobasso,Campobasso,Campobasso,Campobasso,Campobasso
+ITF2,2,Termoli,Q118642,comune italiano situato in Molise,Termoli,Termoli,Termoli,Termoli,Térmoli
+ITF2,3,Isernia,Q13450,"comune italiano, capoluogo dell'omonima provincia in Molise",Isernia,Isernia,Isernia,Isernia,Isernia
+ITF3,0,Campania,Q1438,regione d'Italia,Campania,Campania,Kampanien,Campanie,Campania
+ITF3,1,Napoli,Q2634,"comune italiano, capoluogo dell'omonima città metropolitana e della regione Campania",Napoli,Naples,Neapel,Naples,Nápoles
+ITF3,2,Costiera amalfitana,Q212214,costiera in provincia di Salerno affacciata sul Mar Tirreno,Costiera amalfitana,Amalfi Coast,Amalfiküste,Côte amalfitaine,Costa Amalfitana
+ITF3,3,Sorrento,Q72672,comune italiano,Sorrento,Sorrento,Sorrent,Sorrente,Sorrento
+ITF3,4,Isola d'Ischia,Q189387,isola italiana dell'Arcipelago campano,Isola d'Ischia,Ischia,Ischia (Insel),Île d'Ischia,Isquia
+ITF4,0,Puglia,Q1447,regione italiana a statuto ordinario,Puglia,Apulia,Apulien,Pouilles,Apulia
+ITF4,1,Salento,Q735628,regione geografica dell'Italia sud-orientale,Salento,Salento,Salento,Salento,Península salentina
+ITF4,2,Bari,Q3519,"comune italiano, capoluogo dell'omonima città metropolitana e della regione Puglia",Bari,Bari,Bari,Bari,Bari
+ITF4,3,Gargano,Q763332,promontorio dell'Italia meridionale sul mare Adriatico,Gargano,Gargano,Gargano,Gargano,Gargano
+ITF4,4,Alberobello,Q51812,comune italiano,Alberobello,Alberobello,Alberobello,Alberobello,Alberobello
+ITF5,0,Basilicata,Q1452,regione italiana a statuto ordinario,Basilicata,Basilicata,Basilikata,Basilicate,Basilicata
+ITF5,1,Matera,Q13616,"comune italiano, capoluogo dell'omonima provincia in Basilicata",Matera,Matera,Matera,Matera,Matera
+ITF5,2,Maratea,Q52597,comune italiano,Maratea,Maratea,Maratea,Maratea,Maratea
+ITF6,0,Calabria,Q1458,regione italiana a statuto ordinario,Calabria,Calabria,Kalabrien,Calabre,Calabria
+ITF6,1,Tropea,Q54747,comune italiano,Tropea,Tropea,Tropea,Tropea,Tropea
+ITF6,2,Reggio Calabria,Q8471,"comune italiano, capoluogo dell'omonima città metropolitana in Calabria",Reggio Calabria,Reggio Calabria,Reggio Calabria,Reggio de Calabre,Regio de Calabria
+ITF6,3,Scalea,Q54000,comune italiano,Scalea,Scalea,Scalea,Scalea,Scalea
+ITG1,0,Sicilia,Q1460,regione italiana a statuto speciale,Sicilia,Sicily,Sizilien,Sicile,Sicilia
+ITG1,1,Palermo,Q2656,"comune italiano, capoluogo dell'omonima città metropolitana e della regione autonoma Sicilia",Palermo,Palermo,Palermo,Palerme,Palermo
+ITG1,2,Taormina,Q199952,comune italiano,Taormina,Taormina,Taormina,Taormine,Taormina
+ITG1,3,Siracusa,Q13670,"comune italiano, capoluogo dell’omonimo libero consorzio comunale in Sicilia",Siracusa,"Syracuse, Sicily",Syrakus,Syracuse,Siracusa
+ITG1,4,Isole Eolie,Q179883,arcipelago italiano,Isole Eolie,Aeolian Islands,Liparische Inseln,Îles Éoliennes,Islas Eolias
+ITG2,0,Sardegna,Q1462,regione autonoma d'Italia a statuto speciale,Sardegna,Sardinia,Sardinien,Sardaigne,Cerdeña
+ITG2,1,Costa Smeralda,Q1136383,tratto costiero in Sardegna,Costa Smeralda,Costa Smeralda,Costa Smeralda,Costa Smeralda (Sardaigne),Costa Smeralda
+ITG2,2,Cagliari,Q1897,"comune italiano, capoluogo dell'omonima città metropolitana e della regione autonoma Sardegna",Cagliari,Cagliari,Cagliari,Cagliari,Cagliari
+ITG2,3,Alghero,Q166282,comune italiano,Alghero,Alghero,Alghero,Alghero,Alguer
+ITG2,4,Villasimius,Q285590,comune italiano,Villasimius,Villasimius,Villasimius,Villasimius,Villasimius

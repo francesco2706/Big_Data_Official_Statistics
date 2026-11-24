@@ -1,0 +1,112 @@
+====================================================================== 
+1. DATI
+======================================================================
+        fonte           periodo  serie
+        ISTAT 2011-01 / 2024-12     40
+Google Trends 2011-01 / 2025-12    360
+    Wikipedia 2015-07 / 2025-12     40
+       Reddit 2022-01 / 2025-12     20
+
+Trends: serie utilizzabili 265 su 360 (74%)
+intent  attrazioni  hotel  voli
+geo                            
+DE            0.85    0.7  0.70
+ES            0.60    0.5  0.60
+FR            0.90    0.6  0.55
+GB            0.75    0.7  0.75
+IT            1.00    1.0  0.95
+US            0.80    0.7  0.60
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/eda1_qualita_trends.png
+
+====================================================================== 
+2. DINAMICA ANNUA 2016-2024 (indice 2019 = 100)
+======================================================================
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/eda2_dinamica.png
+anno                             2016   2020  2021   2022   2024
+mercato   fonte                                                 
+domestico ISTAT arrivi           91.0   59.0  78.0   96.0   99.0
+          Trends: hotel          87.0   75.0  82.0   91.0   91.0
+          Trends: voli           73.0   47.0  59.0   91.0   94.0
+          Trends: destinazioni   77.0   85.0  92.0   97.0   94.0
+          Wikipedia             102.0  105.0  94.0   81.0   75.0
+estero    ISTAT arrivi           87.0   25.0  41.0   85.0  114.0
+          Trends: hotel          82.0   63.0  58.0   89.0  105.0
+          Trends: voli           75.0   45.0  50.0  100.0  100.0
+          Trends: destinazioni   79.0   65.0  67.0  101.0  114.0
+          Wikipedia             107.0   93.0  93.0  104.0  107.0
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/eda2_reddit_volume.png
+Reddit: da 438 testi (gen 2022) a 25,223 (2024-07), fattore 58
+
+====================================================================== 
+3. STAGIONALITA' (profili mensili 2023-2024)
+======================================================================
+Correlazione tra profilo mensile della fonte e profilo ISTAT (statistiche sulle regioni):
+                                median   min   max  count
+mercato   fonte                                          
+domestico Trends: destinazioni    0.94  0.16  0.98     20
+          Trends: hotel           0.90 -0.05  0.97     20
+          Trends: voli            0.84  0.10  0.96     19
+          Wikipedia               0.15 -0.47  0.84     20
+estero    Reddit                  0.76 -0.31  0.97     20
+          Trends: destinazioni    0.76  0.54  0.92     19
+          Trends: hotel           0.70  0.47  0.85     15
+          Trends: voli            0.58  0.19  0.77     16
+          Wikipedia               0.74 -0.04  0.90     20
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/eda3_stagionalita.png
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/eda3_stagionalita_esempi.png
+
+====================================================================== 
+4. DISTRIBUZIONE TERRITORIALE (quote 2023-2024)
+======================================================================
+Domestico: Wikipedia it          Spearman = 0.67 (p = 0.0012)
+Estero: Wikipedia en/de/fr/es    Spearman = 0.91 (p = 0.0000)
+Estero: menzioni Reddit          Spearman = 0.90 (p = 0.0000)
+
+Reddit: quota di menzioni / quota di arrivi stranieri ISTAT (>1 sovrarappresentata):
+REF_AREA
+Molise            4.05
+Campania          3.43
+Lazio             1.91
+Basilicata        1.69
+Toscana           1.53
+Umbria            1.35
+Liguria           1.27
+Emilia-Romagna    1.06
+Calabria          1.04
+Abruzzo           0.98
+Puglia            0.93
+Lombardia         0.70
+Sicilia           0.68
+Veneto            0.62
+Marche            0.61
+Piemonte          0.40
+Sardegna          0.30
+Valle d'Aosta     0.26
+Trentino-AA       0.24
+Friuli-VG         0.13
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/eda4_territorio.png
+
+====================================================================== 
+5. VARIAZIONI ANNUE: correlazione con ISTAT per periodo
+======================================================================
+periodo                         2012-2019 (normale)  2020-2021 (COVID)  2022 (ripresa)  2023-2024 (normale)
+mercato   fonte                                                                                            
+domestico Trends: hotel                        0.23               0.85            0.61                 0.23
+          Trends: voli                         0.10               0.80            0.61                 0.30
+          Trends: destinazioni                 0.23               0.84            0.78                 0.22
+          Wikipedia                            0.19              -0.42           -0.31                 0.20
+estero    Trends: hotel                        0.04               0.53            0.34                 0.13
+          Trends: voli                         0.01               0.73            0.52                 0.34
+          Trends: destinazioni                 0.09               0.67            0.42                 0.18
+          Wikipedia                            0.15               0.35            0.23                 0.38
+          Reddit                                NaN                NaN             NaN                 0.30
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/eda5_correlazioni_yoy.png
+
+====================================================================== 
+6. QUALITA' DELLE FONTI
+======================================================================
+        fonte                                unita           periodo  serie                                                                           note
+        ISTAT                    arrivi (conteggi)         2011-2024     40        2025 escluso: versione scaricata incoerente con i dati provvisori ISTAT
+Google Trends           indice 0-100 per richiesta         2011-2025    360 74% utilizzabili; non confrontabile tra regioni; cambio raccolta dati gen 2022
+    Wikipedia                    visite (conteggi) 2015-07 / 2025-12     40             lingua come proxy del mercato; Wikipedia italiana in calo dal 2022
+       Reddit quota di testi che citano la regione         2022-2025     20                 solo anglofoni; community x58; regioni piccole con pochi testi

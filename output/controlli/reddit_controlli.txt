@@ -1,0 +1,48 @@
+Lettura completata in 830 s: {'lette': 538700, 'rimosse': 39332, 'vuote': 1284, 'fuori_periodo': 0, 'tenute': 519508}
+
+Testi tenuti: 519,508 (post 58,840, commenti 460,668) | periodo 2022-01 - 2025-12
+Bot: 55,724 | messaggi dei moderatori/fissati: 65,878 (esclusi dagli aggregati)
+Testi che citano almeno una regione: 39.7% (post 77.5%, commenti 34.9%)
+
+Distribuzione del sentiment per tipo di testo, VADER adattato (soglia 0.4):
+sentiment  negativo  neutro  positivo
+kind                                 
+comment       0.092   0.431     0.476
+post          0.077   0.361     0.562
+VADER originale (soglia 0.05):
+sentiment_orig  negativo  neutro  positivo
+kind                                      
+comment            0.144   0.179     0.677
+post               0.104   0.217     0.679
+
+Testi per anno:
+kind         comment   post
+TIME_PERIOD                
+2022           12785   2476
+2023           91376   9391
+2024          199458  21605
+2025          157049  25368
+
+Testi per regione (totale periodo) e sentiment medio:
+          n_testi  sent_medio  sent_medio_orig
+REF_AREA                                      
+ITE4        71456       0.415            0.479
+ITE1        63213       0.460            0.516
+ITF3        51554       0.423            0.484
+ITD3        43080       0.455            0.510
+ITC4        35726       0.413            0.473
+ITD5        18458       0.493            0.539
+ITC3        15656       0.487            0.544
+ITDA        10036       0.472            0.523
+ITG1         8863       0.451            0.503
+ITF4         8255       0.478            0.528
+ITE2         4923       0.527            0.567
+ITC1         4690       0.505            0.554
+ITG2         2642       0.485            0.535
+ITF5         1922       0.550            0.583
+ITF6         1613       0.495            0.539
+ITE3         1205       0.512            0.564
+ITD4         1124       0.465            0.504
+ITF1         1025       0.506            0.555
+ITC2          664       0.509            0.570
+ITF2          258       0.409            0.446

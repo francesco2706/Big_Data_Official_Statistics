@@ -1,0 +1,66 @@
+====================================================================== 
+1. TESTI
+======================================================================
+Testi analizzati: 409,116 (post 53,139, commenti 355,977) | lettura 6 s
+Vocabolario: 4,711 termini | testi per la stima: 120,000
+
+Scelta del numero di temi (coerenza UMass, meno negativa = temi piu' coerenti):
+  k =  6: coerenza -2.316
+  k =  8: coerenza -2.507
+  k = 10: coerenza -2.632
+  k = 12: coerenza -2.591
+  k = 14: coerenza -2.636
+Numero di temi usato: k = 6
+
+Parole principali di ogni tema:
+  T1  city, food, nice, beautiful, cities, love, amazing, enjoy, restaurants, town, area, experience
+  T2  train, station, train station, bus, trains, airport, speed, high speed, high, ferry, hours, taxi
+  T3  car, rent, rent car, drive, rental, driving, renting, renting car, parking, rental car, car rental, public
+  T4  tickets, buy, ticket, check, book, advance, app, website, trenitalia, trains, buy tickets, online
+  T5  stay, nights, night, itinerary, hotel, spend, staying, fly, nights nights, suggestions, flight, early
+  T6  tour, guide, tours, guided, boat, guided tour, booked, tour guide, worth, private, boat tour, book
+
+Testi con un tema assegnato: 404,066 | stima e assegnazione 71 s
+
+Quota dei testi per tema:
+                           quota
+nome_tema                       
+Esperienze, citta' e cibo  0.467
+Biglietti e prenotazioni   0.155
+Itinerari e alloggio       0.137
+Treni e trasporti          0.108
+Auto e noleggio            0.070
+Tour e visite guidate      0.063
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/tm1_parole.png
+
+====================================================================== 
+5. TEMI NELL'ANNO (2023-2025)
+======================================================================
+Correlazione tra quota mensile del tema e arrivi stranieri ISTAT (>0: tema che cresce con il turismo):
+nome_tema
+Itinerari e alloggio        -0.77
+Tour e visite guidate       -0.57
+Treni e trasporti           -0.52
+Auto e noleggio              0.03
+Esperienze, citta' e cibo    0.45
+Biglietti e prenotazioni     0.72
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/tm2_temi_mese.png
+
+====================================================================== 
+6. TEMI NEGLI ANNI
+======================================================================
+anno                        2022   2023   2024   2025
+nome_tema                                            
+Esperienze, citta' e cibo  0.395  0.473  0.487  0.442
+Biglietti e prenotazioni   0.208  0.163  0.158  0.140
+Itinerari e alloggio       0.158  0.128  0.123  0.160
+Treni e trasporti          0.113  0.109  0.106  0.112
+Auto e noleggio            0.060  0.064  0.070  0.074
+Tour e visite guidate      0.066  0.064  0.056  0.072
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/tm3_temi_anno.png
+
+====================================================================== 
+7. TEMI PER REGIONE
+======================================================================
+Regioni con almeno 300 testi: 19
+  grafico salvato: C:\Users\franc\Desktop\Progetto BDOS\ZZ_TURISM\output/tm5_temi_regione.png

@@ -1,0 +1,91 @@
+mercato,fonte,anno,indice
+domestico,ISTAT arrivi,2016,90.67154539212676
+domestico,ISTAT arrivi,2017,94.42671819365418
+domestico,ISTAT arrivi,2018,97.79166437464143
+domestico,ISTAT arrivi,2019,100.0
+domestico,ISTAT arrivi,2020,59.046829680474126
+domestico,ISTAT arrivi,2021,77.9970352606369
+domestico,ISTAT arrivi,2022,95.56488105357015
+domestico,ISTAT arrivi,2023,99.07674285109981
+domestico,ISTAT arrivi,2024,98.98332615479313
+domestico,Trends: hotel,2016,86.53091435249597
+domestico,Trends: hotel,2017,96.82162888893558
+domestico,Trends: hotel,2018,97.39358355606788
+domestico,Trends: hotel,2019,100.0
+domestico,Trends: hotel,2020,74.52609931463476
+domestico,Trends: hotel,2021,82.18852815196473
+domestico,Trends: hotel,2022,91.02217991418891
+domestico,Trends: hotel,2023,94.84353689793056
+domestico,Trends: hotel,2024,91.02224553122677
+domestico,Trends: voli,2016,73.02371541501978
+domestico,Trends: voli,2017,100.48367593712213
+domestico,Trends: voli,2018,98.22134387351778
+domestico,Trends: voli,2019,100.0
+domestico,Trends: voli,2020,46.69491525423729
+domestico,Trends: voli,2021,58.958168902920285
+domestico,Trends: voli,2022,90.59322033898304
+domestico,Trends: voli,2023,103.45849802371544
+domestico,Trends: voli,2024,93.67588932806325
+domestico,Trends: destinazioni,2016,76.81754118374099
+domestico,Trends: destinazioni,2017,93.29370629370631
+domestico,Trends: destinazioni,2018,98.4348097432038
+domestico,Trends: destinazioni,2019,100.0
+domestico,Trends: destinazioni,2020,84.67463688808918
+domestico,Trends: destinazioni,2021,92.18245547791874
+domestico,Trends: destinazioni,2022,97.1268115942029
+domestico,Trends: destinazioni,2023,102.04370194230854
+domestico,Trends: destinazioni,2024,94.46196103368484
+domestico,Wikipedia,2016,102.29154189044515
+domestico,Wikipedia,2017,105.69400445945203
+domestico,Wikipedia,2018,106.42745239367817
+domestico,Wikipedia,2019,100.0
+domestico,Wikipedia,2020,105.26234655464847
+domestico,Wikipedia,2021,94.40514489264274
+domestico,Wikipedia,2022,81.0699587620789
+domestico,Wikipedia,2023,84.479773128365
+domestico,Wikipedia,2024,75.17713939070086
+estero,ISTAT arrivi,2016,87.31586972017631
+estero,ISTAT arrivi,2017,93.09796213579958
+estero,ISTAT arrivi,2018,97.20810512562487
+estero,ISTAT arrivi,2019,100.0
+estero,ISTAT arrivi,2020,25.39894650410351
+estero,ISTAT arrivi,2021,41.38305792535389
+estero,ISTAT arrivi,2022,84.73568002077212
+estero,ISTAT arrivi,2023,104.41136024458923
+estero,ISTAT arrivi,2024,113.75333139927845
+estero,Trends: hotel,2016,81.57921318282403
+estero,Trends: hotel,2017,97.0683624495008
+estero,Trends: hotel,2018,95.40846817813888
+estero,Trends: hotel,2019,100.0
+estero,Trends: hotel,2020,62.751648981932895
+estero,Trends: hotel,2021,58.377380913882874
+estero,Trends: hotel,2022,89.25803582772203
+estero,Trends: hotel,2023,99.17155601572959
+estero,Trends: hotel,2024,105.12534370118622
+estero,Trends: voli,2016,75.20876312186215
+estero,Trends: voli,2017,92.7794514032028
+estero,Trends: voli,2018,96.85046591826251
+estero,Trends: voli,2019,100.0
+estero,Trends: voli,2020,45.416580557544265
+estero,Trends: voli,2021,49.600250073551045
+estero,Trends: voli,2022,99.60416165182274
+estero,Trends: voli,2023,104.80713270912858
+estero,Trends: voli,2024,100.355519573657
+estero,Trends: destinazioni,2016,78.5324981261377
+estero,Trends: destinazioni,2017,92.0325534079349
+estero,Trends: destinazioni,2018,95.4074429879382
+estero,Trends: destinazioni,2019,100.0
+estero,Trends: destinazioni,2020,64.7322116421682
+estero,Trends: destinazioni,2021,67.21884155961236
+estero,Trends: destinazioni,2022,100.82045954670869
+estero,Trends: destinazioni,2023,112.13810388039063
+estero,Trends: destinazioni,2024,114.1875
+estero,Wikipedia,2016,107.12459158588574
+estero,Wikipedia,2017,106.74269280269694
+estero,Wikipedia,2018,105.0145607491872
+estero,Wikipedia,2019,100.0
+estero,Wikipedia,2020,93.40772279489363
+estero,Wikipedia,2021,93.16324653776711
+estero,Wikipedia,2022,103.79312980300266
+estero,Wikipedia,2023,116.33184729180888
+estero,Wikipedia,2024,106.88071000797119

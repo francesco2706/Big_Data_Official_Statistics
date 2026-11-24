@@ -1,0 +1,28 @@
+vero,previsto,n,metodo
+negative,negative,2,Qwen 2.5 7B
+negative,neutral,0,Qwen 2.5 7B
+negative,positive,1,Qwen 2.5 7B
+neutral,negative,2,Qwen 2.5 7B
+neutral,neutral,13,Qwen 2.5 7B
+neutral,positive,5,Qwen 2.5 7B
+positive,negative,0,Qwen 2.5 7B
+positive,neutral,1,Qwen 2.5 7B
+positive,positive,19,Qwen 2.5 7B
+negative,negative,1,RoBERTa (transformer)
+negative,neutral,1,RoBERTa (transformer)
+negative,positive,1,RoBERTa (transformer)
+neutral,negative,1,RoBERTa (transformer)
+neutral,neutral,14,RoBERTa (transformer)
+neutral,positive,5,RoBERTa (transformer)
+positive,negative,0,RoBERTa (transformer)
+positive,neutral,1,RoBERTa (transformer)
+positive,positive,19,RoBERTa (transformer)
+negative,negative,0,VADER (dizionario)
+negative,neutral,1,VADER (dizionario)
+negative,positive,2,VADER (dizionario)
+neutral,negative,0,VADER (dizionario)
+neutral,neutral,6,VADER (dizionario)
+neutral,positive,14,VADER (dizionario)
+positive,negative,1,VADER (dizionario)
+positive,neutral,2,VADER (dizionario)
+positive,positive,17,VADER (dizionario)

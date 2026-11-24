@@ -1,0 +1,147 @@
+
+======================================================================
+1. INDICATORI ELEMENTARI
+======================================================================
+Correlazioni di Spearman tra indicatori elementari (mercato estero):
+                  wiki_quota  reddit_quota  reddit_sentiment  wiki_crescita  trends_crescita
+wiki_quota              1.00          0.89             -0.74          -0.20             0.12
+reddit_quota            0.89          1.00             -0.60          -0.07             0.01
+reddit_sentiment       -0.74         -0.60              1.00           0.37            -0.22
+wiki_crescita          -0.20         -0.07              0.37           1.00             0.12
+trends_crescita         0.12          0.01             -0.22           0.12             1.00
+
+======================================================================
+2. INDICATORE (punteggio di rango: 100 = regione migliore, 0 = peggiore, 50 = a meta' classifica)
+======================================================================
+
+Mercato estero:
+                Visibilita'  Reputazione  Slancio   DAI
+REF_AREA                                               
+Emilia-Romagna         65.8         63.2     69.6  66.2
+Friuli-VG              23.7         84.2     89.2  65.7
+Puglia                 44.7         57.9     83.8  62.1
+Umbria                 31.6        100.0     53.5  61.7
+Trentino-AA            63.2         36.8     80.6  60.2
+Toscana                94.7         42.1     30.0  55.6
+Sicilia                68.4         21.1     73.7  54.4
+Abruzzo                13.2         73.7     76.2  54.3
+Piemonte               47.4         78.9     32.2  52.8
+Basilicata             21.1         89.5     40.9  50.5
+Liguria                68.4         31.6     49.1  49.7
+Lazio                 100.0          5.3     41.4  48.9
+Campania               86.8         10.5     47.8  48.4
+Marche                 13.2         94.7     34.2  47.4
+Lombardia              76.3          0.0     65.2  47.2
+Calabria               26.3         68.4     34.4  43.0
+Valle d'Aosta          23.7         52.6     43.4  39.9
+Veneto                 86.8         15.8     13.9  38.8
+Sardegna               44.7         47.4     13.5  35.2
+Molise                  0.0         26.3      5.3  10.5
+
+Mercato domestico:
+                Visibilita'  Slancio   DAI
+REF_AREA                                  
+Sicilia                78.9     68.4  73.7
+Friuli-VG              52.6     84.2  68.4
+Campania               89.5     39.5  64.5
+Lazio                 100.0     26.3  63.2
+Lombardia              94.7     23.7  59.2
+Veneto                 84.2     31.6  57.9
+Abruzzo                42.1     71.1  56.6
+Molise                 10.5     97.4  53.9
+Sardegna               36.8     71.1  53.9
+Emilia-Romagna         68.4     39.5  53.9
+Liguria                57.9     47.4  52.6
+Piemonte               63.2     31.6  47.4
+Toscana                73.7     18.4  46.1
+Marche                 31.6     55.3  43.4
+Calabria                0.0     78.9  39.5
+Umbria                 26.3     52.6  39.5
+Puglia                 47.4     28.9  38.2
+Valle d'Aosta          21.1     42.1  31.6
+Basilicata             15.8     42.1  28.9
+Trentino-AA             5.3     50.0  27.6
+
+Nota: il Molise ha 87 thread; con lo shrinkage il suo tono e' avvicinato alla media invece di finire all'estremo della scala.
+
+======================================================================
+3. VALIDAZIONE PER PILASTRO (Spearman con ISTAT)
+======================================================================
+  mercato      misura       riferimento_ISTAT  spearman  p_value
+   estero Visibilita'    quota arrivi 2023-24      0.92   0.0000
+   estero     Slancio crescita arrivi 2019-24      0.49   0.0288
+   estero         DAI    quota arrivi 2023-24      0.14   0.5565
+domestico Visibilita'    quota arrivi 2023-24      0.67   0.0012
+domestico     Slancio crescita arrivi 2019-24      0.47   0.0360
+domestico         DAI    quota arrivi 2023-24      0.19   0.4135
+
+Lettura: i pilastri Visibilita' e Slancio sono validati dal dato ufficiale; il DAI no, e non deve esserlo:
+mescola livello, tono e crescita. Va presentato come sintesi descrittiva dell'attenzione online, accompagnato
+dai pilastri e dall'intervallo di incertezza, non come stima dei flussi turistici.
+
+======================================================================
+4. SCARTO TRA ATTENZIONE DIGITALE E TURISTI
+======================================================================
+
+Mercato estero (log-rapporti: +0.69 = il doppio, -0.69 = la meta'; slancio relativo alla mediana):
+Attenzione: quota di arrivi sotto lo 0.5% per Abruzzo, Molise, Basilicata, Calabria: lo scarto e' un rapporto con un denominatore piccolissimo e va letto con cautela.
+                quota_attenzione  quota_arrivi  scarto_visibilita  scarto_slancio
+REF_AREA                                                                         
+Molise                     0.002         0.000              2.522          -0.223
+Basilicata                 0.010         0.003              1.154          -0.265
+Campania                   0.113         0.044              0.943           0.057
+Abruzzo                    0.008         0.003              0.922           0.062
+Calabria                   0.011         0.005              0.914           0.191
+Lazio                      0.209         0.110              0.645           0.114
+Umbria                     0.018         0.010              0.590           0.095
+Liguria                    0.055         0.036              0.418           0.014
+Marche                     0.008         0.006              0.252          -0.076
+Sicilia                    0.047         0.039              0.196           0.068
+Valle d'Aosta              0.009         0.008              0.176           0.039
+Puglia                     0.030         0.025              0.161          -0.204
+Emilia-Romagna             0.055         0.048              0.139           0.104
+Toscana                    0.130         0.119              0.092           0.010
+Sardegna                   0.020         0.026             -0.270          -0.088
+Piemonte                   0.026         0.034             -0.281          -0.055
+Lombardia                  0.093         0.150             -0.478           0.068
+Veneto                     0.104         0.199             -0.650          -0.107
+Friuli-VG                  0.010         0.024             -0.833           0.104
+Trentino-AA                0.040         0.111             -1.014           0.151
+
+Mercato domestico (log-rapporti: +0.69 = il doppio, -0.69 = la meta'; slancio relativo alla mediana):
+Attenzione: quota di arrivi sotto lo 0.5% per Molise: lo scarto e' un rapporto con un denominatore piccolissimo e va letto con cautela.
+                quota_attenzione  quota_arrivi  scarto_visibilita  scarto_slancio
+REF_AREA                                                                         
+Molise                     0.029         0.002              2.721           0.226
+Basilicata                 0.035         0.010              1.237           0.090
+Valle d'Aosta              0.036         0.012              1.096          -0.020
+Friuli-VG                  0.048         0.020              0.905           0.082
+Abruzzo                    0.042         0.024              0.563           0.028
+Lazio                      0.102         0.065              0.448           0.044
+Campania                   0.068         0.045              0.412           0.085
+Sardegna                   0.040         0.028              0.378           0.007
+Sicilia                    0.062         0.044              0.336          -0.015
+Umbria                     0.037         0.028              0.274          -0.049
+Calabria                   0.028         0.022              0.243           0.190
+Marche                     0.040         0.032              0.216          -0.022
+Liguria                    0.049         0.040              0.209           0.020
+Piemonte                   0.054         0.047              0.138           0.039
+Puglia                     0.044         0.048             -0.089          -0.053
+Lombardia                  0.076         0.113             -0.397           0.029
+Toscana                    0.059         0.098             -0.509          -0.042
+Veneto                     0.063         0.111             -0.569          -0.072
+Emilia-Romagna             0.058         0.126             -0.768           0.045
+Trentino-AA                0.029         0.085             -1.088          -0.158
+
+======================================================================
+5. ANALISI DI INCERTEZZA
+======================================================================
+Mercato estero: 36 combinazioni | Spearman minima tra classifiche = 0.74 | ampiezza media dell'intervallo di posizioni = 5.3
+   sentiment 'media semplice' invece di 'stima con shrinkage': Spearman classifica DAI = 1.00
+   sentiment 'al netto del volume' invece di 'stima con shrinkage': Spearman classifica DAI = 0.87
+   sempre tra le prime 5: Emilia-Romagna, Puglia, Trentino-AA, Umbria | sempre tra le ultime 5: Sardegna, Molise
+Mercato domestico: 12 combinazioni | Spearman minima tra classifiche = 0.83 | ampiezza media dell'intervallo di posizioni = 3.8
+   sempre tra le prime 5: Sicilia, Friuli-VG, Campania | sempre tra le ultime 5: Valle d'Aosta, Basilicata, Trentino-AA
+  grafico salvato: output/ind_1_pilastri.png
+  grafico salvato: output/ind_2_incertezza.png
+  grafico salvato: output/ind_3_scarti.png

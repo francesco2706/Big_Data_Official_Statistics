@@ -1,0 +1,80 @@
+
+======================================================================
+1. TESTI 2023-2024 CLASSIFICATI DA QWEN
+======================================================================
+Testi: 128,002 | esclusi perche' le regioni sono solo citate: 2,865 | su piu' regioni: 15,585
+
+======================================================================
+2. DESTAGIONALIZZAZIONE
+======================================================================
+Punteggio medio per mese dell'anno (tolto da ogni testo):
+TIME_PERIOD     01     02     03    04     05     06     07     08     09     10     11     12
+media        0.371  0.283  0.277  0.25  0.249  0.219  0.208  0.249  0.222  0.241  0.324  0.288
+
+======================================================================
+3. MEDIA PER REGIONE CON ERRORE STANDARD PER THREAD
+======================================================================
+effetto_disegno = di quante volte la varianza sarebbe sottostimata trattando i testi come indipendenti
+                n_testi  n_thread  grezzo   media      se  effetto_disegno
+REF_AREA                                                                  
+Piemonte         1834.0    1009.0  0.4526  0.4508  0.0196           1.3747
+Valle d'Aosta     278.0     181.0  0.3669  0.3611  0.0454           1.4183
+Liguria          6007.0    2777.0  0.3138  0.3150  0.0122           1.6326
+Lombardia       18003.0    7398.0  0.1558  0.1562  0.0070           1.8306
+Trentino-AA      4531.0    2097.0  0.3233  0.3238  0.0122           1.4366
+Veneto          17681.0    6651.0  0.2844  0.2817  0.0083           2.1520
+Friuli-VG         371.0     248.0  0.4852  0.4841  0.0389           1.1265
+Emilia-Romagna   7105.0    2997.0  0.4120  0.4058  0.0101           1.5926
+Toscana         31766.0   10035.0  0.3487  0.3449  0.0061           2.1779
+Umbria           1884.0    1051.0  0.5350  0.5347  0.0189           1.3416
+Marche            502.0     293.0  0.5319  0.5332  0.0378           1.3511
+Lazio           32109.0   10974.0  0.1707  0.1699  0.0064           2.4545
+Abruzzo           559.0     339.0  0.4508  0.4513  0.0396           1.6305
+Molise            126.0      87.0  0.2857  0.2909  0.0649           0.9945
+Campania        26371.0    7923.0  0.2441  0.2448  0.0071           2.3069
+Puglia           4252.0    1726.0  0.3746  0.3753  0.0141           1.5131
+Basilicata        712.0     431.0  0.5056  0.5046  0.0295           1.1018
+Calabria          746.0     436.0  0.4263  0.4264  0.0295           1.1299
+Sicilia          4449.0    2068.0  0.2841  0.2852  0.0148           1.6748
+Sardegna         1244.0     641.0  0.3489  0.3536  0.0312           1.9318
+
+======================================================================
+4. SHRINKAGE BAYESIANO EMPIRICO
+======================================================================
+media nazionale mu = 0.3624 | dev. std. vera tra regioni tau = 0.1022
+quota della variabilita' tra regioni che e' segnale (regione tipica) = 97%
+                n_thread  media  peso_dati  shrink  ci_lo  ci_hi  affidabile
+REF_AREA                                                                    
+Umbria            1051.0  0.535      0.967   0.529  0.493  0.565        True
+Marche             293.0  0.533      0.880   0.513  0.443  0.582        True
+Basilicata         431.0  0.505      0.923   0.494  0.438  0.549        True
+Friuli-VG          248.0  0.484      0.874   0.469  0.398  0.540        True
+Piemonte          1009.0  0.451      0.965   0.448  0.410  0.485        True
+Abruzzo            339.0  0.451      0.869   0.440  0.367  0.512        True
+Calabria           436.0  0.426      0.923   0.421  0.366  0.477        True
+Emilia-Romagna    2997.0  0.406      0.990   0.405  0.386  0.425        True
+Puglia            1726.0  0.375      0.981   0.375  0.348  0.402        True
+Valle d'Aosta      181.0  0.361      0.836   0.361  0.280  0.443        True
+Sardegna           641.0  0.354      0.915   0.354  0.296  0.413        True
+Toscana          10035.0  0.345      0.996   0.345  0.333  0.357        True
+Trentino-AA       2097.0  0.324      0.986   0.324  0.301  0.348        True
+Liguria           2777.0  0.315      0.986   0.316  0.292  0.339        True
+Molise              87.0  0.291      0.713   0.311  0.204  0.419       False
+Sicilia           2068.0  0.285      0.979   0.287  0.258  0.316        True
+Veneto            6651.0  0.282      0.993   0.282  0.266  0.298        True
+Campania          7923.0  0.245      0.995   0.245  0.231  0.259        True
+Lazio            10974.0  0.170      0.996   0.171  0.158  0.183        True
+Lombardia         7398.0  0.156      0.995   0.157  0.144  0.171        True
+
+Regioni con tono significativamente diverso dalla media: 16 su 20 (Umbria, Marche, Basilicata, Friuli-VG, Piemonte, Abruzzo, Calabria, Emilia-Romagna, Toscana, Trentino-AA, Liguria, Sicilia, Veneto, Campania, Lazio, Lombardia)
+Regioni poco affidabili (< 150 thread): Molise
+
+======================================================================
+5. TONO E VOLUME DI DISCUSSIONE
+======================================================================
+Spearman(log numero di testi, sentiment) = -0.62 (p = 0.004)
+Raddoppiare i testi sposta il sentiment di -0.0270. La variante 'al netto del volume' toglie
+questa relazione: non e' la misura principale (l'affollamento fa parte dell'esperienza), ma entra nell'analisi
+di incertezza dell'indicatore.
+  grafico salvato: output/rep1_sentiment_regioni.png
+  grafico salvato: output/rep2_volume.png

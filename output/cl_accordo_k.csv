@@ -1,0 +1,13 @@
+k,fonte,ARI,p_value,ARI_p10,ARI_p90
+2,Google Trends,0.044,0.35,-0.083,0.693
+2,Wikipedia,0.382,0.055,0.012,1.0
+2,Trends + Wikipedia,0.618,0.003,-0.068,1.0
+3,Google Trends,0.318,0.013,0.001,0.435
+3,Wikipedia,0.403,0.002,0.116,0.61
+3,Trends + Wikipedia,0.231,0.007,0.112,0.777
+4,Google Trends,0.155,0.101,0.136,0.458
+4,Wikipedia,0.187,0.068,0.069,0.442
+4,Trends + Wikipedia,0.317,0.016,0.193,0.666
+5,Google Trends,0.267,0.002,0.181,0.446
+5,Wikipedia,0.1,0.135,0.039,0.323
+5,Trends + Wikipedia,0.253,0.008,0.151,0.601

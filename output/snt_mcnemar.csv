@@ -1,0 +1,3 @@
+confronto,giusto_solo_qwen,giusto_solo_altro,p_value
+Qwen contro RoBERTa (transformer),4,4,1.0
+Qwen contro VADER (dizionario),13,2,0.0074

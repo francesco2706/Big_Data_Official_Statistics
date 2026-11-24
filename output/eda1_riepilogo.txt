@@ -1,0 +1,39 @@
+        fonte           periodo  serie                       unita
+        ISTAT 2011-01 / 2024-12     40           arrivi (conteggi)
+Google Trends 2011-01 / 2025-12    360  indice 0-100 per richiesta
+    Wikipedia 2015-07 / 2025-12     40           visite (conteggi)
+       Reddit 2022-01 / 2025-12     20 testi che citano la regione
+
+Trends: serie utilizzabili 265 su 360 (74%)
+Quota di serie utilizzabili per Paese e categoria:
+intent  attrazioni  hotel  voli
+geo                            
+DE            0.85    0.7  0.70
+ES            0.60    0.5  0.60
+FR            0.90    0.6  0.55
+GB            0.75    0.7  0.75
+IT            1.00    1.0  0.95
+US            0.80    0.7  0.60
+
+Serie utilizzabili per regione (su 18 = 6 Paesi x 3 categorie):
+REF_AREA
+ITF2     2
+ITE3     5
+ITF1     6
+ITC2     7
+ITF6     7
+ITF5     8
+ITE2    10
+ITD4    11
+ITDA    13
+ITC3    17
+ITF4    17
+ITD3    18
+ITD5    18
+ITE1    18
+ITC1    18
+ITC4    18
+ITF3    18
+ITE4    18
+ITG1    18
+ITG2    18

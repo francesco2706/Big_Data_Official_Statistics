@@ -1,0 +1,170 @@
+REF_AREA,mercato,fonte,r
+ITC1,domestico,Trends: hotel,0.08246518263017402
+ITC1,domestico,Trends: voli,0.4041096854085547
+ITC1,domestico,Trends: destinazioni,0.5972899048602841
+ITC1,domestico,Wikipedia,-0.4715507725558655
+ITC1,estero,Trends: hotel,0.7365816287709414
+ITC1,estero,Trends: voli,0.44383247353059907
+ITC1,estero,Trends: destinazioni,0.8441053194485689
+ITC1,estero,Wikipedia,0.7809031501796454
+ITC1,estero,Reddit,0.7321045417797392
+ITC2,domestico,Trends: hotel,0.8654380398698168
+ITC2,domestico,Trends: voli,0.8128422612589992
+ITC2,domestico,Trends: destinazioni,0.8284086240542229
+ITC2,domestico,Wikipedia,0.4585822520888345
+ITC2,estero,Trends: destinazioni,0.6599267807607441
+ITC2,estero,Wikipedia,0.8089034513133355
+ITC2,estero,Reddit,-0.3135978659089678
+ITC3,domestico,Trends: hotel,0.934307046612339
+ITC3,domestico,Trends: voli,0.9249306158836993
+ITC3,domestico,Trends: destinazioni,0.9577635251903216
+ITC3,domestico,Wikipedia,-0.09108780066079693
+ITC3,estero,Trends: hotel,0.7086307659303207
+ITC3,estero,Trends: voli,0.5437257357703722
+ITC3,estero,Trends: destinazioni,0.803476876170702
+ITC3,estero,Wikipedia,0.7543813111818148
+ITC3,estero,Reddit,0.9692459567557894
+ITC4,domestico,Trends: hotel,0.6034530838587314
+ITC4,domestico,Trends: voli,0.09646602010384872
+ITC4,domestico,Trends: destinazioni,0.15927073693648103
+ITC4,domestico,Wikipedia,-0.4301920330141827
+ITC4,estero,Trends: hotel,0.7630276228769179
+ITC4,estero,Trends: voli,0.35058042943858253
+ITC4,estero,Trends: destinazioni,0.7553169572974244
+ITC4,estero,Wikipedia,0.5519812925711067
+ITC4,estero,Reddit,0.8090002010375247
+ITDA,domestico,Trends: hotel,0.8894992183078544
+ITDA,domestico,Trends: voli,0.5980956061915583
+ITDA,domestico,Trends: destinazioni,0.8920870821799529
+ITDA,domestico,Wikipedia,0.8433654432985453
+ITDA,estero,Trends: hotel,0.6654598161346845
+ITDA,estero,Trends: voli,0.6291751034318535
+ITDA,estero,Trends: destinazioni,0.6659726674072515
+ITDA,estero,Wikipedia,0.8045958538897926
+ITDA,estero,Reddit,0.6906340952649641
+ITD3,domestico,Trends: hotel,0.8611605265154912
+ITD3,domestico,Trends: voli,0.8377030294515626
+ITD3,domestico,Trends: destinazioni,0.9590040963969132
+ITD3,domestico,Wikipedia,0.10698845846610061
+ITD3,estero,Trends: hotel,0.7012296464561482
+ITD3,estero,Trends: voli,0.4633291804070372
+ITD3,estero,Trends: destinazioni,0.7247741451828167
+ITD3,estero,Wikipedia,0.7812066934883144
+ITD3,estero,Reddit,0.7300052589658738
+ITD4,domestico,Trends: hotel,0.906792333442754
+ITD4,domestico,Trends: voli,0.9614609017054281
+ITD4,domestico,Trends: destinazioni,0.9749947786897982
+ITD4,domestico,Wikipedia,0.1516151548393474
+ITD4,estero,Trends: hotel,0.6641055293801348
+ITD4,estero,Trends: voli,0.7632018214809809
+ITD4,estero,Trends: destinazioni,0.9182780822482605
+ITD4,estero,Wikipedia,0.8973219523507316
+ITD4,estero,Reddit,0.7809615076266146
+ITD5,domestico,Trends: hotel,0.9706651651762799
+ITD5,domestico,Trends: voli,0.8838129569936054
+ITD5,domestico,Trends: destinazioni,0.9178948925560492
+ITD5,domestico,Wikipedia,-0.17645769029405772
+ITD5,estero,Trends: hotel,0.8462585709347674
+ITD5,estero,Trends: voli,0.6386109568210865
+ITD5,estero,Trends: destinazioni,0.7687372459396826
+ITD5,estero,Wikipedia,0.3474098583505461
+ITD5,estero,Reddit,0.5668214411571324
+ITE1,domestico,Trends: hotel,0.896356544307909
+ITE1,domestico,Trends: voli,0.8839790946497122
+ITE1,domestico,Trends: destinazioni,0.9712769180568523
+ITE1,domestico,Wikipedia,0.1491762198051246
+ITE1,estero,Trends: hotel,0.736752021089663
+ITE1,estero,Trends: voli,0.4618785103724987
+ITE1,estero,Trends: destinazioni,0.6176409267810423
+ITE1,estero,Wikipedia,0.5703270679349074
+ITE1,estero,Reddit,0.8675508696282717
+ITE2,domestico,Trends: hotel,0.9317878784247562
+ITE2,domestico,Trends: voli,0.8652890249826054
+ITE2,domestico,Trends: destinazioni,0.957246547493523
+ITE2,domestico,Wikipedia,0.45736313371560156
+ITE2,estero,Trends: hotel,0.5832779324232925
+ITE2,estero,Trends: voli,0.6238919496511178
+ITE2,estero,Trends: destinazioni,0.8197688017964002
+ITE2,estero,Wikipedia,0.7810329615922824
+ITE2,estero,Reddit,0.6590721467265499
+ITE3,domestico,Trends: hotel,0.8980085044907886
+ITE3,domestico,Trends: voli,0.9252551228105337
+ITE3,domestico,Trends: destinazioni,0.9440065604976237
+ITE3,domestico,Wikipedia,0.5148539850271117
+ITE3,estero,Trends: voli,0.769424842192489
+ITE3,estero,Trends: destinazioni,0.8282156640565893
+ITE3,estero,Wikipedia,0.7505162799217685
+ITE3,estero,Reddit,0.601803549940229
+ITE4,domestico,Trends: hotel,-0.05101085595135569
+ITE4,domestico,Trends: voli,0.31877971409838457
+ITE4,domestico,Trends: destinazioni,0.5686201569711006
+ITE4,domestico,Wikipedia,-0.23328674264380492
+ITE4,estero,Trends: hotel,0.46935565236372573
+ITE4,estero,Trends: voli,0.18681425963764237
+ITE4,estero,Trends: destinazioni,0.5631035190136653
+ITE4,estero,Wikipedia,-0.035739303470842525
+ITE4,estero,Reddit,0.8617544535669227
+ITF1,domestico,Trends: hotel,0.5177299492670046
+ITF1,domestico,Trends: voli,0.8367004806769021
+ITF1,domestico,Trends: destinazioni,0.9154070065313581
+ITF1,domestico,Wikipedia,0.05431682039597078
+ITF1,estero,Trends: voli,0.7045710953777027
+ITF1,estero,Trends: destinazioni,0.5361716264196151
+ITF1,estero,Wikipedia,0.07021972308368297
+ITF1,estero,Reddit,0.6353219268522281
+ITF2,domestico,Trends: hotel,0.9656776833943918
+ITF2,domestico,Trends: destinazioni,0.925675299405575
+ITF2,domestico,Wikipedia,0.3261778346757015
+ITF2,estero,Wikipedia,0.5636357185044407
+ITF2,estero,Reddit,0.6970522088151804
+ITF3,domestico,Trends: hotel,0.9093257471177333
+ITF3,domestico,Trends: voli,0.31277369920874476
+ITF3,domestico,Trends: destinazioni,0.950687538579711
+ITF3,domestico,Wikipedia,-0.06821193373007628
+ITF3,estero,Trends: hotel,0.6963383972690804
+ITF3,estero,Trends: voli,0.6100572259647905
+ITF3,estero,Trends: destinazioni,0.6885224967558089
+ITF3,estero,Wikipedia,0.6361727788670204
+ITF3,estero,Reddit,0.9609608644235011
+ITF4,domestico,Trends: hotel,0.9286585712263621
+ITF4,domestico,Trends: voli,0.4136419099299717
+ITF4,domestico,Trends: destinazioni,0.9313300232403061
+ITF4,domestico,Wikipedia,0.708879666417504
+ITF4,estero,Trends: hotel,0.7379578961452063
+ITF4,estero,Trends: voli,0.5412901806189802
+ITF4,estero,Trends: destinazioni,0.6141397353096364
+ITF4,estero,Wikipedia,0.7345218590033663
+ITF4,estero,Reddit,0.8089106648003916
+ITF5,domestico,Trends: hotel,0.9406573366741166
+ITF5,domestico,Trends: voli,0.7444541186011557
+ITF5,domestico,Trends: destinazioni,0.963053681012167
+ITF5,domestico,Wikipedia,0.04915209341392653
+ITF5,estero,Trends: destinazioni,0.8514547561008381
+ITF5,estero,Wikipedia,0.8221930755207055
+ITF5,estero,Reddit,0.633664280134095
+ITF6,domestico,Trends: hotel,0.8989871811452208
+ITF6,domestico,Trends: voli,0.9375555956774358
+ITF6,domestico,Trends: destinazioni,0.9454843535568868
+ITF6,domestico,Wikipedia,0.7451261746226122
+ITF6,estero,Trends: hotel,0.6266329867065036
+ITF6,estero,Trends: destinazioni,0.7718213404988815
+ITF6,estero,Wikipedia,0.446340357734667
+ITF6,estero,Reddit,0.9090823708352317
+ITG1,domestico,Trends: hotel,0.9305533078728845
+ITG1,domestico,Trends: voli,0.8788931501597508
+ITG1,domestico,Trends: destinazioni,0.9844941347070908
+ITG1,domestico,Wikipedia,0.6932503576822096
+ITG1,estero,Trends: hotel,0.5079932087413007
+ITG1,estero,Trends: voli,0.3712538424215143
+ITG1,estero,Trends: destinazioni,0.6119630404892615
+ITG1,estero,Wikipedia,0.34718312635583903
+ITG1,estero,Reddit,0.8568610919118631
+ITG2,domestico,Trends: hotel,0.8730095277532853
+ITG2,domestico,Trends: voli,0.7806435448510932
+ITG2,domestico,Trends: destinazioni,0.9805530258788316
+ITG2,domestico,Wikipedia,0.6756494156309859
+ITG2,estero,Trends: hotel,0.6754521483821349
+ITG2,estero,Trends: voli,0.7464618144681916
+ITG2,estero,Trends: destinazioni,0.7551759464959763
+ITG2,estero,Wikipedia,0.8223827138266139
+ITG2,estero,Reddit,0.8061971339687076

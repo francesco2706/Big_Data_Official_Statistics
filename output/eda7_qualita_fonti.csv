@@ -1,0 +1,5 @@
+fonte,unita,periodo,serie,note
+ISTAT,arrivi (conteggi),2011-2024,40,2025 escluso: versione scaricata incoerente con i dati provvisori ISTAT
+Google Trends,indice 0-100 per richiesta,2011-2025,360,74% utilizzabili; non confrontabile tra regioni; cambio raccolta dati gen 2022
+Wikipedia,visite (conteggi),2015-07 / 2025-12,40,lingua come proxy del mercato; Wikipedia italiana in calo dal 2022
+Reddit,quota di testi che citano la regione,2022-2025,20,solo anglofoni; community x58; regioni piccole con pochi testi
