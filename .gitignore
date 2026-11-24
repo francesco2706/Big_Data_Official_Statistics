@@ -1,0 +1,13 @@
+# Testi di Reddit: non vanno ridistribuiti (termini d'uso e privacy degli utenti)
+data/raw/reddit/
+data/processed/reddit_testi.csv.gz
+data/processed/validazione/
+data/llm/
+output/llm/qwen_testi_classificati.*
+output/tm_testi.csv.gz
+output/esempi_reddit_completi.csv
+
+# File temporanei
+__pycache__/
+*.pyc
+~$*
